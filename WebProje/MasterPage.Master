@@ -1,0 +1,34 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="WebProje.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="StyleSheet1.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap" rel="stylesheet">
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <div id="social">DOĞA | Ağaçlandırma ve Doğal Varlıkları Koruma Vakfı</div>
+            <div id="container">
+                <section>
+                    <nav>
+                            <a href="Anasayfa.aspx">Ana Sayfa</a>
+                            <a href="Hakkımızda.aspx">Hakkımızda</a>
+                            <a href="BağışVeDestek.aspx">Bağış ve Destek</a>
+                            <a href="İletişim.aspx">İletişim</a>                      
+                    </nav>
+                </section>
+
+            </div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+            
+        </div>
+    </form>
+</body>
+</html>

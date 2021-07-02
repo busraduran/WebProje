@@ -1,0 +1,63 @@
+﻿*{
+    box-sizing:border-box ;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(https://c.pxhere.com/photos/0d/0f/tree_forest_wood_fern_evergreen-21627.jpg!d);
+    font-family: 'Oxygen', sans-serif;
+}
+#social{
+    background-color:black;
+    color:white;
+    height:55px;
+    width:100%;
+    position:sticky;
+    top:0;
+    z-index:1;
+    font-size:18px;
+    text-align:center;
+    padding:15px; 
+}
+#container{
+    width:65%;
+    margin:auto;
+    height:auto;
+}
+
+section {
+    width: 100%;
+    height: auto;
+    background-color: azure;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 0 2px 8px 2px rgba(20,23,28,.15);
+    margin-top: 15px;
+    overflow: auto;
+}
+nav{
+    width:85%;
+    margin:20px;
+    height:auto;
+    padding:5px;
+}
+nav a{
+    height:50px;
+    text-decoration:none;
+    color:black;
+    border-bottom:1px solid #b4b4b4;
+    padding:15px;
+    display:inline-block;
+    width:200px;
+    text-align:center;
+}
+main{
+    margin-top:auto;
+    width:85%;
+}
+p{
+    padding:20px;
+    text-align :center;
+    line-height:120px;
+}
+
